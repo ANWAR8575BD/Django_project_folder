@@ -34,7 +34,7 @@
                 <div class="card-body">
                     <h1 style="color: red;">Bismillah Shop</h1>
                     <h2 class="title">Memo Form</h2>
-                    <form method="POST">
+                    <form action="add" method="GET" >
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
@@ -100,24 +100,26 @@
                             <br> 
                             <div class="input-group">
                                 <label class="label">Rice Prize</label>
-                                <input class="input--style-4" type="email" name="" placeholder="Rice Prize......tk">
+                                <input class="input--style-4" type="number" name="rp" placeholder="Rice Prize......tk">
                             </div> 
                             <div class="input-group">
                                 <label class="label">Oli Prize</label>
-                                <input class="input--style-4" type="email" name="" placeholder="Oil rize......tk">
+                                <input class="input--style-4" type="number" name="op" placeholder="Oil rize......tk">
                             </div> 
                             <div class="input-group">
                                 <label class="label">Onion Prize</label>
-                                <input class="input--style-4" type="email" name="" placeholder="Onion Prize......tk">
+                                <input class="input--style-4" type="number" name="onp" placeholder="Onion Prize......tk">
                             </div> 
                             <div class="input-group">
                                 <label class="label">sugar Prize</label>
-                                <input class="input--style-4" type="email" name="" placeholder="sugar Prize......tk">
+                                <input class="input--style-4" type="number" name="sp" placeholder="sugar Prize......tk">
                             </div> 
                             <div class="input-group">
                                 <label class="label">Potato Prize</label>
-                                <input class="input--style-4" type="email" name="" placeholder="Potato Prize......tk">
-                            </div> 
+                                <input class="input--style-4" type="number" name="pp" placeholder="Potato Prize......tk">
+                            </div>
+                            <h1>Your Total Prize is : ........{{result}} </h1>
+                            {% comment %} <input type="submit" value="Total Prize" style="width: 150px; padding:20px; background-color:red; color: #fff; border-radius:10px;"> {% endcomment %}
                                    
                         </div>
                         
